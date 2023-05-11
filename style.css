@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    border: 10px solid white;
+
+}
+.wrapper > .hour, .minute, .second{
+    background-color: rgb(16 16 16 / 50%);
+    backdrop-filter: blur(5px);
+    border: 1px solid white;
+    font-size: 5rem;
+    padding: 0 8px 0 8px;
+}
